@@ -1,0 +1,1 @@
+H:\my_projects\news_app_eyego\build\app\intermediates\cxx\Debug\1560v512\obj\arm64-v8a
