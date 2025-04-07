@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "110986020737",
+    "project_id": "newsapp-bda08",
+    "storage_bucket": "newsapp-bda08.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:110986020737:android:f875bb0ff832c907440a80",
+        "android_client_info": {
+          "package_name": "com.example.news_app_eyego"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "110986020737-rec7ot72dsm4md2ab7fln0gcno58lpo7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-JrYOwUZKdBYTuFCbuly6a8QU8YJOIxE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "110986020737-rec7ot72dsm4md2ab7fln0gcno58lpo7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
