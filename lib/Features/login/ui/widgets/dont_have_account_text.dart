@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:news_app_eyego/Core/theming/styles.dart';
 
-import '../../../signup/sign_up_screen.dart';
 
 
 class DontHaveAccountText extends StatelessWidget {

@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:get/get.dart';
 import 'package:news_app_eyego/Features/home/data/models/category_model.dart';
 import 'package:news_app_eyego/Features/home/ui/views/category_view.dart';
 
-import '../../../../../Core/Controllers/NewController.dart';
+import '../../../../../Core/Controllers/news_controller.dart';
 
 class CategoryCard extends StatelessWidget {
   CategoryCard({super.key, required this.category});
