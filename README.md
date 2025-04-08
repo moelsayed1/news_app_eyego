@@ -1,16 +1,23 @@
-# news_app_eyego
+# News App - Eyego
 
-A new Flutter project.
+**GitHub Repo:**  
+[https://github.com/moelsayed1/news_app_eyego](https://github.com/moelsayed1/news_app_eyego)
 
-## Getting Started
+## About
 
-This project is a starting point for a Flutter application.
+This is a Flutter-based news application that provides a seamless experience for users to browse and search news articles, with additional features such as user authentication and news categorization. The app uses **Firebase Authentication** for email/password and Google sign-in, **GetX** for state management and navigation, and **Dio** for handling API requests.
 
-A few resources to get you started if this is your first Flutter project:
+## Features
+- **User Authentication**: Users can sign in via email/password or Google account.
+- **Search Functionality**: Allows users to search for news articles based on keywords.
+- **Categories**: Filter news articles by predefined categories (e.g., Technology, Sports, etc.).
+- **State Management**: Handled using **GetX** for efficient state handling and navigation.
+- **API Integration**: The app fetches news articles from a news API using **Dio**.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Setup Instructions
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 1. Clone the repository:
+```bash
+git clone https://github.com/YourGitHubUser/news_app_eyego.git
+cd news_app_eyego
+
