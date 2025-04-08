@@ -1,7 +1,7 @@
 # News App - Eyego
 
 **GitHub Repo:**  
-[https://github.com/YourGitHubUser/news_app_eyego](https://github.com/YourGitHubUser/news_app_eyego)
+[https://github.com/moelsayed1/news_app_eyego](https://github.com/moelsayed1/news_app_eyego)
 
 ## About
 
