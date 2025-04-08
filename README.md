@@ -21,3 +21,6 @@ This is a Flutter-based news application that provides a seamless experience for
 git clone https://github.com/YourGitHubUser/news_app_eyego.git
 cd news_app_eyego
 
+### 2. Use Flutter 3.29 and Gradle 8.12 then
+```bash
+flutter pub get
