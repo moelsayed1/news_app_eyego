@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:get/get_utils/src/get_utils/get_utils.dart';
-import 'package:news_app_eyego/Core/Controllers/auth_Controller.dart';
+import 'package:news_app_eyego/Core/controllers/auth_Controller.dart';
 import '../../../../core/helpers/spacing.dart';
 import '../../../../core/widgets/app_text_form_field.dart';
 
@@ -10,7 +10,7 @@ class EmailAndPassword extends StatefulWidget {
     super.key,
     required this.controller,
   });
-  final authController controller;
+  final AuthController controller;
 
   @override
   State<EmailAndPassword> createState() => _EmailAndPasswordState();
