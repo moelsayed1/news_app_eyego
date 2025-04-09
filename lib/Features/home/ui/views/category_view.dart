@@ -25,7 +25,7 @@ class CategoryView extends StatelessWidget {
         padding: EdgeInsets.only(top: 25.h, right: 16.w, left: 16.w),
         child: CustomScrollView(
           slivers: [
-            NewsListViewBuilder(category: category),
+            NewsListViewBuilder(category: category, articles: [],),
           ],
         ),
       ),
