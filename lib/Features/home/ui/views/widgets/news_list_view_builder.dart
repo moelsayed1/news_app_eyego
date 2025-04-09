@@ -6,7 +6,7 @@ import 'package:news_app_eyego/Features/home/ui/views/widgets/news_list_view.dar
 
 
 class NewsListViewBuilder extends StatefulWidget {
-  const NewsListViewBuilder({super.key, required this.category});
+  const NewsListViewBuilder({super.key, required this.category, required List<ArticleModel> articles});
 
   final String category;
 

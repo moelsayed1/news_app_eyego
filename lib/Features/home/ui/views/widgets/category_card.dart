@@ -4,7 +4,6 @@ import 'package:get/get.dart';
 import 'package:news_app_eyego/Features/home/data/models/category_model.dart';
 import 'package:news_app_eyego/Features/home/ui/views/category_view.dart';
 
-import '../../../../../Core/Controllers/NewController.dart';
 
 class CategoryCard extends StatelessWidget {
   CategoryCard({super.key, required this.category});
@@ -15,12 +14,9 @@ class CategoryCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
-        Navigator.of(context).push(
-          MaterialPageRoute(
-            builder: (context) => CategoryView(
-              category: category.categoryName,
-            ),
-          ),
+        Get.to(() => CategoryView(
+          category: category.categoryName,
+        ),
         );
       },
       child: Padding(
