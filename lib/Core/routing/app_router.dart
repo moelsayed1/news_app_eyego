@@ -9,7 +9,7 @@ class AppRouter {
     switch (settings.name) {
       case Routes.onBoardingScreen:
         return MaterialPageRoute(
-          builder: (_) => const HomeScreen(),
+          builder: (_) =>  HomeScreen(),
         );
     }
     return null;

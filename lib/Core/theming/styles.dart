@@ -21,19 +21,13 @@ class TextStyles {
   static TextStyle font13BlueSemiBold = TextStyle(
     fontSize: 13.sp,
     fontWeight: FontWeightHelper.semiBold,
-    color: ColorsManager.mainYellow,
+    color: ColorsManager.mainBlue,
   );
 
-  static TextStyle signInButtonStyle = TextStyle(
-    fontSize: 15.sp,
-    fontWeight: FontWeightHelper.semiBold,
-    color: Colors.white,
-  );
   static TextStyle font13DarkBlueMedium = TextStyle(
     fontSize: 13.sp,
     fontWeight: FontWeightHelper.medium,
     color: ColorsManager.darkBlue,
-    overflow: TextOverflow.ellipsis,
   );
 
   static TextStyle font13DarkBlueRegular = TextStyle(
@@ -45,7 +39,7 @@ class TextStyles {
   static TextStyle font24BlueBold = TextStyle(
     fontSize: 24.sp,
     fontWeight: FontWeightHelper.bold,
-    color: ColorsManager.mainYellow,
+    color: ColorsManager.mainBlue,
   );
 
   static TextStyle font16WhiteSemiBold = TextStyle(
@@ -87,7 +81,7 @@ class TextStyles {
   static TextStyle font13BlueRegular = TextStyle(
     fontSize: 13.sp,
     fontWeight: FontWeightHelper.regular,
-    color: ColorsManager.mainYellow,
+    color: ColorsManager.mainBlue,
   );
 
   static TextStyle font14GrayRegular = TextStyle(

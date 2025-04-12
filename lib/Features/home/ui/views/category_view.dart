@@ -10,11 +10,22 @@ class CategoryView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        centerTitle: true,
+        title: Text(
+          category,
+          style: TextStyle(
+            color: Colors.black,
+            fontSize: 25.sp,
+            fontWeight: FontWeight.bold,
+          ),
+        ),
+      ),
       body: Padding(
-        padding: EdgeInsets.only(top: 22.h, right: 10.w, left: 10.w),
+        padding: EdgeInsets.only(top: 25.h, right: 16.w, left: 16.w),
         child: CustomScrollView(
           slivers: [
-            NewsListViewBuilder(category: category),
+            NewsListViewBuilder(category: category, articles: [],),
           ],
         ),
       ),
