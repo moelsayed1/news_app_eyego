@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
-import 'package:news_app_eyego/Core/networking/news_services.dart';
-import 'package:news_app_eyego/Features/home/data/models/artical_model.dart';
+import 'package:news_app_eyego/Core/networking/news_service.dart';
+import 'package:news_app_eyego/Features/home/data/models/article_model.dart';
 import 'package:news_app_eyego/Features/home/ui/views/widgets/news_list_view.dart';
 
 
