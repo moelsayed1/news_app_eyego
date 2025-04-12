@@ -13,59 +13,63 @@ class NewsTile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return GestureDetector(
-      child: Column(
-        children: [
-          ClipRRect(
-            borderRadius: BorderRadius.circular(8.0),
-            child: CachedNetworkImage(
-              height: 200.h,
-              width: double.infinity,
-              fit: BoxFit.cover,
-              imageUrl: articleModel.image ?? 'Unable to load image',
-              placeholder: (context, url) =>
-                  Center(child: CircularProgressIndicator()),
-              errorWidget: (context, url, error) => Icon(Icons.error),
-            ),
+    return Column(
+      children: [
+        GestureDetector(
+          child: Column(
+            children: [
+              ClipRRect(
+                borderRadius: BorderRadius.circular(8.r),
+                child: CachedNetworkImage(
+                  height: 200.h,
+                  width: double.infinity,
+                  fit: BoxFit.cover,
+                  imageUrl: articleModel.image ?? 'Unable to load image',
+                  placeholder: (context, url) =>
+                      Center(child: CircularProgressIndicator()),
+                  errorWidget: (context, url, error) => Icon(Icons.error),
+                ),
+              ),
+              verticalSpace(12),
+              Text(
+                articleModel.title,
+                style: TextStyle(
+                  fontSize: 20.sp,
+                  fontWeight: FontWeight.w500,
+                ),
+                maxLines: 2,
+                overflow: TextOverflow.ellipsis,
+              ),
+              verticalSpace(6),
+              Text(
+                articleModel.subTitle ?? 'No description',
+                style: TextStyle(
+                  color: Colors.grey,
+                  fontSize: 16.sp,
+                ),
+                maxLines: 2,
+                overflow: TextOverflow.ellipsis,
+              ),
+            ],
           ),
-          verticalSpace(12),
-          Text(
-            articleModel.title,
-            style: TextStyle(
-              fontSize: 20.sp,
-              fontWeight: FontWeight.w500,
-            ),
-            maxLines: 2,
-            overflow: TextOverflow.ellipsis,
-          ),
-          verticalSpace(6),
-          Text(
-            articleModel.subTitle ?? 'No description',
-            style: TextStyle(
-              color: Colors.grey,
-              fontSize: 16.sp,
-            ),
-            maxLines: 2,
-            overflow: TextOverflow.ellipsis,
-          ),
-        ],
-      ),
-      onTap: () async {
-        try {
-          await launch(
-            '${Uri.parse(articleModel.url!)}',
-            forceSafariVC: true,
-          );
-        } on Exception catch (e) {
-          GetSnackBar(
-            title: "Error",
-            message: "Unable to open the link ${e.toString()}",
-            duration: const Duration(seconds: 2),
-            backgroundColor: Colors.red,
-            snackPosition: SnackPosition.BOTTOM,
-          );
-        }
-      },
+          onTap: () async {
+            try {
+              await launch(
+                '${Uri.parse(articleModel.url!)}',
+                forceSafariVC: true,
+              );
+            } on Exception catch (e) {
+              GetSnackBar(
+                title: "Error",
+                message: "Unable to open the link ${e.toString()}",
+                duration: const Duration(seconds: 2),
+                backgroundColor: Colors.red,
+                snackPosition: SnackPosition.BOTTOM,
+              );
+            }
+          },
+        ),
+      ],
     );
   }
 }
