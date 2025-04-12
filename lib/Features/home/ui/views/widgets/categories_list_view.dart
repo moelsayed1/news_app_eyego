@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-<<<<<<< HEAD
 import 'package:news_app_eyego/Core/controllers/drawer_controller.dart';
 import 'package:news_app_eyego/Core/controllers/news_controller.dart';
 import 'package:news_app_eyego/Features/home/data/models/category_model.dart';
@@ -12,22 +11,6 @@ class CategoriesListView extends StatefulWidget {
   @override
   State<CategoriesListView> createState() => _CategoriesListViewState();
 }
-=======
-import 'package:news_app_eyego/Core/Controllers/news_controller.dart';
-import 'package:news_app_eyego/Features/home/data/models/category_model.dart';
-import 'package:news_app_eyego/Features/home/ui/views/widgets/category_card.dart';
-
-
-class CategoriesListView extends StatefulWidget {
-  const CategoriesListView({super.key});
-
-  @override
-  State<CategoriesListView> createState() => _CategoriesListViewState();
-}
-
-class _CategoriesListViewState extends State<CategoriesListView> {
-  newsController controller = Get.put<newsController>(newsController());
->>>>>>> df475568714fad362fcaba57a3a8b6dfdcf7bdf4
 
 class _CategoriesListViewState extends State<CategoriesListView> {
   final List<CategoryModel> categories = const [
@@ -60,11 +43,8 @@ class _CategoriesListViewState extends State<CategoriesListView> {
       categoryName: 'Technology',
     ),
   ];
-<<<<<<< HEAD
 
   newsController controller = Get.put<newsController>(newsController());
-=======
->>>>>>> df475568714fad362fcaba57a3a8b6dfdcf7bdf4
 
   @override
   Widget build(BuildContext context) {

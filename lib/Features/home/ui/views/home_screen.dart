@@ -8,7 +8,6 @@ import 'package:news_app_eyego/Features/home/ui/views/widgets/categories_list_vi
 import 'package:news_app_eyego/Features/home/ui/views/widgets/news_list_view_builder.dart';
 import 'package:news_app_eyego/Features/search/ui/search_screen.dart';
 
-
 class HomeScreen extends StatelessWidget {
   HomeScreen({super.key});
 
@@ -71,11 +70,13 @@ class HomeScreen extends StatelessWidget {
                 height: 20.h,
               ),
             ),
-<<<<<<< HEAD
-            NewsListViewBuilder(category: 'general'),
-=======
-            NewsListViewBuilder(category: 'general', articles: [],),
->>>>>>> df475568714fad362fcaba57a3a8b6dfdcf7bdf4
+
+            // NewsListViewBuilder(category: 'general'),
+
+            NewsListViewBuilder(
+              category: 'general',
+              articles: [],
+            ),
           ],
         ),
       ),

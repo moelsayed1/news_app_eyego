@@ -29,7 +29,7 @@ class SignupScreen extends StatelessWidget {
               children: [
                 Text(
                   'Create Account',
-                  style: TextStyles.font24BlueBold,
+                  style: TextStyles.font24YellowBold,
                 ),
                 verticalSpace(8),
                 Text(
@@ -45,7 +45,7 @@ class SignupScreen extends StatelessWidget {
                           color: Colors.white,
                           secondRingColor: Colors.blue,
                           thirdRingColor: Colors.green,
-                          size: 200,
+                          size: 100.r,
                         ))
                         : Column(
                       children: [

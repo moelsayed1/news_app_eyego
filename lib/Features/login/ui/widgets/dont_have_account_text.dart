@@ -21,7 +21,7 @@ class DontHaveAccountText extends StatelessWidget {
           ),
           TextSpan(
             text: ' Sign Up',
-            style: TextStyles.font13BlueSemiBold,
+            style: TextStyles.font13YellowSemiBold,
             recognizer: TapGestureRecognizer()
               ..onTap = () {
               Get.to(()=> SignupScreen());
