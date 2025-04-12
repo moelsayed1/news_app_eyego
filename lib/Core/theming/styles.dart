@@ -143,4 +143,10 @@ class TextStyles {
     fontWeight: FontWeightHelper.medium,
     color: Colors.white,
   );
+
+  static TextStyle signInButtonStyle = TextStyle(
+    fontSize: 15.sp,
+    fontWeight: FontWeightHelper.semiBold,
+    color: Colors.white,
+  );
 }

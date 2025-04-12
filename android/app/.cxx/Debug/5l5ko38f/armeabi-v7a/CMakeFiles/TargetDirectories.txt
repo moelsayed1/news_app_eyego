@@ -1,0 +1,2 @@
+H:/my_projects/NewsCloud/android/app/.cxx/Debug/5l5ko38f/armeabi-v7a/CMakeFiles/edit_cache.dir
+H:/my_projects/NewsCloud/android/app/.cxx/Debug/5l5ko38f/armeabi-v7a/CMakeFiles/rebuild_cache.dir

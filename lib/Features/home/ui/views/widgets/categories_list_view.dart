@@ -1,14 +1,18 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
+import 'package:news_app_eyego/Core/controllers/drawer_controller.dart';
+import 'package:news_app_eyego/Core/controllers/news_controller.dart';
 import 'package:news_app_eyego/Features/home/data/models/category_model.dart';
 import 'package:news_app_eyego/Features/home/ui/views/widgets/category_card.dart';
 
-import '../../../../../Core/Controllers/NewController.dart';
+class CategoriesListView extends StatefulWidget {
+  const CategoriesListView({super.key});
 
-class CategoriesListView extends StatelessWidget {
-  CategoriesListView({super.key});
+  @override
+  State<CategoriesListView> createState() => _CategoriesListViewState();
+}
 
+class _CategoriesListViewState extends State<CategoriesListView> {
   final List<CategoryModel> categories = const [
     CategoryModel(
       categoryImage: 'assets/images/business.avif',
@@ -39,6 +43,7 @@ class CategoriesListView extends StatelessWidget {
       categoryName: 'Technology',
     ),
   ];
+
   newsController controller = Get.put<newsController>(newsController());
 
   @override
@@ -47,6 +52,7 @@ class CategoriesListView extends StatelessWidget {
       children: [
         SingleChildScrollView(
           scrollDirection: Axis.horizontal,
+          physics: const BouncingScrollPhysics(),
           child: Row(
               children: List.generate(
             categories.length,

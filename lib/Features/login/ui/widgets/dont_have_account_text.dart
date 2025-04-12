@@ -2,6 +2,7 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:news_app_eyego/Core/theming/styles.dart';
+import 'package:news_app_eyego/Features/signup/sign_up_screen.dart';
 
 
 

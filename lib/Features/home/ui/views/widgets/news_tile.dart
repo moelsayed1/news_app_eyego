@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:news_app_eyego/Core/helpers/spacing.dart';
-import 'package:news_app_eyego/Features/home/data/models/artical_model.dart';
+import 'package:news_app_eyego/Features/home/data/models/article_model.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class NewsTile extends StatelessWidget {
