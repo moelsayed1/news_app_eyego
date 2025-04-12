@@ -2,6 +2,7 @@ C/C++ Structured LogK
 I
 GC:\flutter\packages\flutter_tools\gradle\src\main\groovy\CMakeLists.txtC
 A
+<<<<<<< HEAD
 ?com.android.build.gradle.internal.cxx.io.EncodedFileFingerPrint	ìýœÜâ2§ Žã’ãà2e
 c
 aH:\my_projects\news_app_eyego\android\app\.cxx\Debug\1560v512\x86_64\additional_project_files.txt	ìýœÜâ2 ²²¹ôà2b
@@ -26,3 +27,29 @@ Y
 WH:\my_projects\news_app_eyego\android\app\.cxx\Debug\1560v512\x86_64\prefab_config.json	ìýœÜâ2( Â²¹ôà2`
 ^
 \H:\my_projects\news_app_eyego\android\app\.cxx\Debug\1560v512\x86_64\symbol_folder_index.txt	ìýœÜâ2S Â²¹ôà2
+=======
+?com.android.build.gradle.internal.cxx.io.EncodedFileFingerPrint	¶–âÄá2§ Žã’ãà2e
+c
+aH:\my_projects\news_app_eyego\android\app\.cxx\Debug\1560v512\x86_64\additional_project_files.txt	·–âÄá2 ²²¹ôà2b
+`
+^H:\my_projects\news_app_eyego\android\app\.cxx\Debug\1560v512\x86_64\android_gradle_build.json	·–âÄá2˜ ´²¹ôà2g
+e
+cH:\my_projects\news_app_eyego\android\app\.cxx\Debug\1560v512\x86_64\android_gradle_build_mini.json	·–âÄá2õ Á²¹ôà2T
+R
+PH:\my_projects\news_app_eyego\android\app\.cxx\Debug\1560v512\x86_64\build.ninja	·–âÄá2 Ò á±¹ôà2X
+V
+TH:\my_projects\news_app_eyego\android\app\.cxx\Debug\1560v512\x86_64\build.ninja.txt	·–âÄá2]
+[
+YH:\my_projects\news_app_eyego\android\app\.cxx\Debug\1560v512\x86_64\build_file_index.txt	·–âÄá2G Ã²¹ôà2^
+\
+ZH:\my_projects\news_app_eyego\android\app\.cxx\Debug\1560v512\x86_64\compile_commands.json	·–âÄá2	b
+`
+^H:\my_projects\news_app_eyego\android\app\.cxx\Debug\1560v512\x86_64\compile_commands.json.bin	¸–âÄá2
+h
+f
+dH:\my_projects\news_app_eyego\android\app\.cxx\Debug\1560v512\x86_64\metadata_generation_command.txt	¸–âÄá2£ Á²¹ôà2[
+Y
+WH:\my_projects\news_app_eyego\android\app\.cxx\Debug\1560v512\x86_64\prefab_config.json	¸–âÄá2( Â²¹ôà2`
+^
+\H:\my_projects\news_app_eyego\android\app\.cxx\Debug\1560v512\x86_64\symbol_folder_index.txt	¸–âÄá2S Â²¹ôà2
+>>>>>>> df475568714fad362fcaba57a3a8b6dfdcf7bdf4

@@ -2,7 +2,11 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:news_app_eyego/Core/helpers/spacing.dart';
+<<<<<<< HEAD
 import 'package:news_app_eyego/Features/home/data/models/article_model.dart';
+=======
+import 'package:news_app_eyego/Features/home/data/models/artical_model.dart';
+>>>>>>> df475568714fad362fcaba57a3a8b6dfdcf7bdf4
 import 'package:url_launcher/url_launcher.dart';
 
 class NewsDetailsView extends StatelessWidget {

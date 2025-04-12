@@ -71,7 +71,11 @@ class HomeScreen extends StatelessWidget {
                 height: 20.h,
               ),
             ),
+<<<<<<< HEAD
             NewsListViewBuilder(category: 'general'),
+=======
+            NewsListViewBuilder(category: 'general', articles: [],),
+>>>>>>> df475568714fad362fcaba57a3a8b6dfdcf7bdf4
           ],
         ),
       ),

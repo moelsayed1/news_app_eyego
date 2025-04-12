@@ -2,6 +2,7 @@ C/C++ Structured LogK
 I
 GC:\flutter\packages\flutter_tools\gradle\src\main\groovy\CMakeLists.txtC
 A
+<<<<<<< HEAD
 ?com.android.build.gradle.internal.cxx.io.EncodedFileFingerPrint	ËýœÜâ2§ Žã’ãà2b
 `
 ^H:\my_projects\news_app_eyego\android\app\.cxx\Debug\1560v512\x86\additional_project_files.txt	ËýœÜâ2 ï¥¹ôà2_
@@ -26,3 +27,29 @@ V
 TH:\my_projects\news_app_eyego\android\app\.cxx\Debug\1560v512\x86\prefab_config.json	ËýœÜâ2( €¦¹ôà2]
 [
 YH:\my_projects\news_app_eyego\android\app\.cxx\Debug\1560v512\x86\symbol_folder_index.txt	ËýœÜâ2P ¦¹ôà2
+=======
+?com.android.build.gradle.internal.cxx.io.EncodedFileFingerPrint	½•âÄá2§ Žã’ãà2b
+`
+^H:\my_projects\news_app_eyego\android\app\.cxx\Debug\1560v512\x86\additional_project_files.txt	½•âÄá2 ï¥¹ôà2_
+]
+[H:\my_projects\news_app_eyego\android\app\.cxx\Debug\1560v512\x86\android_gradle_build.json	½•âÄá2’ ò¥¹ôà2d
+b
+`H:\my_projects\news_app_eyego\android\app\.cxx\Debug\1560v512\x86\android_gradle_build_mini.json	½•âÄá2ï þ¥¹ôà2Q
+O
+MH:\my_projects\news_app_eyego\android\app\.cxx\Debug\1560v512\x86\build.ninja	½•âÄá2‘Ò ú¤¹ôà2U
+S
+QH:\my_projects\news_app_eyego\android\app\.cxx\Debug\1560v512\x86\build.ninja.txt	½•âÄá2Z
+X
+VH:\my_projects\news_app_eyego\android\app\.cxx\Debug\1560v512\x86\build_file_index.txt	½•âÄá2G ¦¹ôà2[
+Y
+WH:\my_projects\news_app_eyego\android\app\.cxx\Debug\1560v512\x86\compile_commands.json	¾•âÄá2	_
+]
+[H:\my_projects\news_app_eyego\android\app\.cxx\Debug\1560v512\x86\compile_commands.json.bin	¾•âÄá2
+e
+c
+aH:\my_projects\news_app_eyego\android\app\.cxx\Debug\1560v512\x86\metadata_generation_command.txt	¾•âÄá2” ÿ¥¹ôà2X
+V
+TH:\my_projects\news_app_eyego\android\app\.cxx\Debug\1560v512\x86\prefab_config.json	¾•âÄá2( €¦¹ôà2]
+[
+YH:\my_projects\news_app_eyego\android\app\.cxx\Debug\1560v512\x86\symbol_folder_index.txt	¾•âÄá2P ¦¹ôà2
+>>>>>>> df475568714fad362fcaba57a3a8b6dfdcf7bdf4
