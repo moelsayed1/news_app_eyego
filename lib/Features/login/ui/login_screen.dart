@@ -26,97 +26,99 @@ class LoginScreen extends StatelessWidget {
             child: GetBuilder<AuthController>(
               builder: (controller) {
                 return !controller.isLoading
-                    ? Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      'Welcome Back',
-                      style: TextStyles.font24YellowBold,
-                    ),
-                    verticalSpace(8),
-                    Text(
-                      'We\'re excited to have you back, can\'t wait to see what you\'ve been up to since you last logged in.',
-                      style: TextStyles.font14GrayRegular,
-                    ),
-                    verticalSpace(36),
-                    Column(
-                      children: [
-                        EmailAndPassword(
-                          controller: controller,
-                        ),
-                        verticalSpace(24),
-                        Align(
-                          alignment: AlignmentDirectional.center,
-                          child: Text(
-                            'Forgot Password?',
-                            style: TextStyles.font13YellowRegular,
-                          ),
-                        ),
-                        verticalSpace(24),
-                        AppTextButton(
-                          buttonText: "Login",
-                          textStyle: TextStyles.font16WhiteSemiBold,
-                          onPressed: () {
-                            controller.validateThenDoLogin(context);
-                          },
-                        ),
-                        verticalSpace(10),
-                        Align(
-                          alignment: AlignmentDirectional.center,
-                          child: Text(
-                            'or Sign In With Google',
-                            style: TextStyles.font13YellowRegular,
-                            textDirection: TextDirection.ltr,
-                          ),
-                        ),
-                        verticalSpace(10),
-                        Column(
+                    ? SingleChildScrollView(
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            googleSignInButton(
-                              text: 'Sign in with Google ',
-                              icon: Ionicons.logo_google,
-                              color: Colors.white,
-                              isIconAsset: false,
-                              gradient: LinearGradient(
-                                colors: [
-                                  Colors.red,
-                                  Colors.blue, // Google's blue
-                                ],
-                                begin: Alignment.topLeft,
-                                end: Alignment.bottomRight,
-                              ),
-                              borderColor: HexColor("03A0D7"),
-                              textColor: Colors.white,
-                              onTap: () async {
-                                try {
-                                  await controller.googleLogin();
-                                } catch (e) {
-                                  debugPrint(e.toString());
-                                }
-                              },
+                            Text(
+                              'Welcome Back',
+                              style: TextStyles.font24YellowBold,
+                            ),
+                            verticalSpace(8),
+                            Text(
+                              'We\'re excited to have you back, can\'t wait to see what you\'ve been up to since you last logged in.',
+                              style: TextStyles.font14GrayRegular,
+                            ),
+                            verticalSpace(36),
+                            Column(
+                              children: [
+                                EmailAndPassword(
+                                  controller: controller,
+                                ),
+                                verticalSpace(24),
+                                Align(
+                                  alignment: AlignmentDirectional.center,
+                                  child: Text(
+                                    'Forgot Password?',
+                                    style: TextStyles.font13YellowRegular,
+                                  ),
+                                ),
+                                verticalSpace(24),
+                                AppTextButton(
+                                  buttonText: "Login",
+                                  textStyle: TextStyles.font16WhiteSemiBold,
+                                  onPressed: () {
+                                    controller.validateThenDoLogin(context);
+                                  },
+                                ),
+                                verticalSpace(10),
+                                Align(
+                                  alignment: AlignmentDirectional.center,
+                                  child: Text(
+                                    'or Sign In With Google',
+                                    style: TextStyles.font13YellowRegular,
+                                    textDirection: TextDirection.ltr,
+                                  ),
+                                ),
+                                verticalSpace(10),
+                                Column(
+                                  children: [
+                                    googleSignInButton(
+                                      text: 'Sign in with Google ',
+                                      icon: Ionicons.logo_google,
+                                      color: Colors.white,
+                                      isIconAsset: false,
+                                      gradient: LinearGradient(
+                                        colors: [
+                                          Colors.red,
+                                          Colors.blue, // Google's blue
+                                        ],
+                                        begin: Alignment.topLeft,
+                                        end: Alignment.bottomRight,
+                                      ),
+                                      borderColor: HexColor("03A0D7"),
+                                      textColor: Colors.white,
+                                      onTap: () async {
+                                        try {
+                                          await controller.googleLogin();
+                                        } catch (e) {
+                                          debugPrint(e.toString());
+                                        }
+                                      },
+                                    ),
+                                  ],
+                                ),
+                                verticalSpace(50),
+                                const DontHaveAccountText(),
+                              ],
                             ),
                           ],
                         ),
-                        verticalSpace(50),
-                        const DontHaveAccountText(),
-                      ],
-                    ),
-                  ],
-                )
+                      )
                     : Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Center(
-                      child: LoadingAnimationWidget.discreteCircle(
-                        color: Colors.orange,
-                        secondRingColor: Colors.blue,
-                        thirdRingColor: Colors.green,
-                        size: 100.r,
-                      ),
-                    )
-                  ],
-                );
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Center(
+                            child: LoadingAnimationWidget.discreteCircle(
+                              color: Colors.orange,
+                              secondRingColor: Colors.blue,
+                              thirdRingColor: Colors.green,
+                              size: 100.r,
+                            ),
+                          )
+                        ],
+                      );
               },
             )),
       ),
