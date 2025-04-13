@@ -1,17 +1,5 @@
-# news_app_eyego
+# News App - Eyego
 
-<<<<<<< HEAD
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-=======
 A Flutter-based news application that provides a seamless experience for users to browse and search news articles, with additional features such as user authentication and news categorization.
 
 ## 🚀 Features
@@ -30,6 +18,19 @@ A Flutter-based news application that provides a seamless experience for users t
 
 - 🌐 **API Integration**  
   News data fetched from a public REST API using **Dio**.
+
+- 📱 **Responsive UI**  
+  The app is fully responsive across different screen sizes using the `flutter_screenutil` package.
+
+## 🧰 Tech Stack
+
+- **Flutter Version:** 3.29.2 (channel stable)  
+- **Dart Version:** Comes bundled with Flutter 3.29.2  
+- **Gradle Version:** 8.9  
+- **Android Gradle Plugin:** Compatible version for Gradle 8.9 (e.g., 8.4.0)  
+- **State Management:** GetX  
+- **Networking:** Dio  
+- **Responsive Design:** flutter_screenutil
 
 ## 🛠️ Setup Instructions
 
